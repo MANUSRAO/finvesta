@@ -1,0 +1,139 @@
+
+*{ 
+    margin:0;
+    padding:0;
+}
+.navbar{
+    padding-bottom: 0px;
+   
+}
+.navbar-brand{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 0px;
+}
+.navbar-brand img{
+    height: 120.5px;
+    width: 235.05px;
+    padding-left: 60px;
+}
+.navbar-collapse{
+padding-left: 400px;
+}
+.navbar-nav > li{
+    font-size: 1.3rem;
+    padding-left:15px;
+    padding-right:15px;
+    
+  }
+ .navbar-nav > li a:hover{
+      color: #328BCB;
+      font-weight: bolder;
+  }
+  .btn{
+      background:linear-gradient(to right,#62C0ED,#328BCB) ;
+      color: white;
+  }
+  .btn:hover{
+      background:white;
+      color:#0068b3;
+  }
+  .home1{
+    padding: 3% 10%;
+}
+.contactform{
+    padding: 3% 15%;
+    display: block;
+}
+.mobile{
+    display: inline-block;
+    position: relative;
+    top: -90px;
+}
+.element1{
+    display: inline-block;
+   border: 1px solid #f1f4f6;
+   border-radius: 4rem;
+   padding: 7px 25px;
+   box-shadow: 0px 7px 25px 0px rgb(22 53 76 / 5%);
+    background-color: #fff;
+    white-space: nowrap;
+}
+.headtag{
+    color: rgb(66, 66, 66);
+    text-align: left;
+    font-family: var(--font1);
+    font-size:3rem;
+    transition: all 0.2s ease-in-out;
+}
+.headtag:hover{
+    text-decoration:underline;
+    text-decoration-color: rgb(236, 236, 41);
+}
+/* .headtag{
+  thickness:5px;
+  background-position: bottom left
+    background-size: 0% thickness
+    background-image: linear-gradient(red, red)
+    padding-bottom :thickness}
+  .headtag:hover
+    {
+      background-size: 100% thickness;} */
+.headtext1{
+    color: rgb(66, 66, 66);
+    font-size: 1.5rem;
+     text-align: left;
+ }
+ .headtext3{
+    font-size: 1.25rem;
+    color: rgb(66, 66, 66);
+}
+ .fa-facebook{
+    margin-right: 15px;
+    margin-left: 15px;
+    color: #1773EA;
+    
+} 
+.fa-telegram{
+    color:#30ADDF;
+    
+}
+.fa-instagram{
+    color: white;
+    background-image:linear-gradient(to top right,#F6C44F,#DB4373,#7937AA);
+    border-radius:30%;
+}
+.card{
+    box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+    transition:all .15s ease-in-out;
+}
+.card:hover{
+    transform: translateY(-4px);
+}
+
+.footer{
+    height: 50px;
+    background-color: var(rgb(95, 89, 89));
+    text-align: left;
+    height: max-content;   
+    padding: 0 5%; 
+} 
+.footer-img{
+    height: 60px;
+    width: 117px;
+} 
+.footer li a{
+    text-decoration: none;
+    
+} 
+.footer li{
+    list-style-type:none;
+}
+@media(max-width:1050px){
+    .mobile{
+        display: inline-block;
+        position: relative;
+        top: -5px;
+    }
+    
+}

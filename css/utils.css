@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+:root{
+    --main-bg-color:#328BCB; 
+    --font1: 'Oswald', sans-serif;
+    --font2: 'Roboto' , sans-serif;
+    --font3: 'Merriweather', serif;
+}
+.max-width-1{
+    max-width:80vw;
+}
+.max-width-2{
+    max-width:70vw;
+}
+.m-auto{
+    margin: auto;
+}
+
+  
